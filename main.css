@@ -1,6 +1,7 @@
 .background {
     background-color: rgb(190, 190, 190);
 }
+
 .navbar {
     border: 1px solid light gray;
     margin-top: 75px;
@@ -8,6 +9,7 @@
     height: 50px;
     background-color: white;
 }
+
 .link1 {
     color: white;
     font-size: 12pt;
@@ -19,7 +21,9 @@
     border-radius: 5px;
     position: relative;
     margin-top:10px;
+    margin-left: 30px;
 }
+
 .link2 {
     color: white;
     font-size: 12pt;
@@ -32,6 +36,7 @@
     position: relative;
     margin-top:10px;
 }
+
 .link3 {
     color: white;
     font-size: 12pt;
@@ -44,6 +49,7 @@
     position: relative;
     margin-top:10px;
 }
+
 .logo {
     display: block;
     height: 200px;
@@ -52,13 +58,16 @@
     margin-left: 43%;
     margin-top: -7%
 }
+
 .search{
     position: relative;
     border-radius: 10px;
     border: 1px solid gray;
     margin-left: 80%;
     top: -30px;
+    text-align: center;
 }
+
 .banner {
     max-width:100%;
     height: auto;
@@ -70,9 +79,11 @@
     height: 400px;
     max-width: 100%;
 }
+
 .textBanner div{
     display: inline-block;
 }
+
 .textLeft {
     display: inline-block;
     position: relative;
@@ -83,6 +94,7 @@
     margin-left: 6%;
     bottom: 5em;
 }
+
 .textRight {
     display: inline-block;
     position: relative;
@@ -100,28 +112,33 @@
     top: 1em;
     left: -4.5em;
 }
+
 .circle {
     position: relative;
     overflow: hidden;
     border-radius: 75%;
-    height: 400px;
+    height: 340px;
     width: 350px;
     top: 1em;
 }
+
 .imgBottom {
     max-width:100%;
     height: auto;
     border-top: 1px solid black;
     transform: scaley(-1);
 }
+
 .gap {
     height: 400px;
     max-width: 100%;
 }
+
 .foot{
     background-color: rgb(48, 48, 48);
     height: 50px;
 }
+
 .foot button{
     height: 30px;
     width: 100px;
