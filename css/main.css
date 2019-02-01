@@ -64,9 +64,13 @@
     width: 100%;
     height: auto;
     border-bottom: 1px solid black;
-    position: relative;
-    top: -15em;
     z-index: 0;
+    position: relative;
+}
+
+.imgTop{
+    position: relative;
+    top: -20em;
 }
 
 .textBanner {
@@ -102,13 +106,6 @@
     bottom: 1em;
 }
 
-.imgRound {
-    height: 700px;
-    width: 700px;
-    position: relative;
-    top: 1em;
-    left: -22em;
-}
 
 .circle {
     position: relative;
@@ -117,18 +114,27 @@
     height: 340px;
     width: 350px;
     top: 1em;
+    overflow: hidden;
+}
+
+.imgRound {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 0em;
+    left: -1em;
 }
 
 .imgBottom {
-    max-width:100%;
-    height: auto;
-    border-top: 1px solid black;
+    position: relative;
+    top: -35em;
+    z-index: -1;
     transform: scaley(-1);
 }
 
-.gap {
-    height: 400px;
-    max-width: 100%;
+footer {
+    position: relative;
+    margin-top: 10em;
 }
 
 .foot{
@@ -140,7 +146,6 @@
     height: 30px;
     width: 100px;
     background-color:rgb(68, 68, 68);
-    margin-top: 10px;
     border: solid 1px wheat;
     color: wheat;
 }
